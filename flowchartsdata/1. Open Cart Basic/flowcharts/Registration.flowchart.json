@@ -209,7 +209,12 @@
           "fcn_lastnode_0"
         ],
         "dependsPathUID": "17667492846001",
-        "isValidationsEnabled": false
+        "pathDependsOn": {
+          "fcUID_1713432997066": [
+            "1713764926800"
+          ]
+        },
+        "isValidationsEnabled": true
       }
     ],
     "flowChartUID": "fcUID_1713432997066",
@@ -217,7 +222,8 @@
       "1713764926800",
       "1713764926838",
       "1713764926877",
-      "17153234547943"
+      "17153234547943",
+      "17667492846001"
     ]
   },
   "enabled": true,

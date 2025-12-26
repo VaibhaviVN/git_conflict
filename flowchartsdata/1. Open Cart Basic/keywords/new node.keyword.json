@@ -1,13 +1,27 @@
 {
   "name": "new node",
-  "id": "0",
+  "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
     "title": "new node",
     "specific": [],
     "parameters": [],
-    "steps": []
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "new node"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
   },
   "enabled": false,
   "parentId": ""
