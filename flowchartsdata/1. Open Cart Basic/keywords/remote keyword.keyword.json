@@ -14,7 +14,7 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "local"
+            "customValue": "local step"
           }
         ],
         "stepCategory": "inbuilt",

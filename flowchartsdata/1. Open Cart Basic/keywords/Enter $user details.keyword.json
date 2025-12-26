@@ -65,9 +65,8 @@
             "accessorId": "acc0"
           },
           {
-            "paramMode": "default",
-            "parameterId": "user_",
-            "attributeId": "attr_21713433667115"
+            "paramMode": "string",
+            "customValue": "adbkab@jkhsd.cm"
           }
         ],
         "stepCategory": "inbuilt",
@@ -122,7 +121,7 @@
             "paramMode": "default",
             "parameterId": "user_",
             "attributeId": "attr_41713433667115",
-            "accessorId": "acc0"
+            "accessorId": "acc1"
           },
           {
             "paramMode": "default",

@@ -9,8 +9,7 @@
         "content": "Start",
         "nodeType": "start",
         "branches": [
-          "fcn_userregistration_0",
-          "fcn_testanothernode_0"
+          "fcn_userregistration_0"
         ]
       },
       "fcn_userregistration_0": {
@@ -76,35 +75,6 @@
         "testCaseInfo": {
           "isTestCaseEnd": true
         }
-      },
-      "fcn_testanothernode_0": {
-        "id": "fcn_testanothernode_0",
-        "content": "test another node",
-        "nodeType": "pathlabel",
-        "branches": [
-          "fcn_registrationregistrationuser_0"
-        ]
-      },
-      "fcn_registrationregistrationuser_0": {
-        "id": "fcn_registrationregistrationuser_0",
-        "content": "",
-        "nodeType": "callpath",
-        "branches": [
-          "fcn_verifythisoutput_0"
-        ],
-        "callPathData": {
-          "flowChartUID": "fcUID_1713432997066",
-          "pathUID": "1713764926800",
-          "pathParam": {
-            "user": "user"
-          }
-        }
-      },
-      "fcn_verifythisoutput_0": {
-        "id": "fcn_verifythisoutput_0",
-        "content": "Verify this output",
-        "nodeType": "state",
-        "branches": []
       }
     },
     "positions": {
@@ -139,18 +109,6 @@
       "fcn_testcase_end_0": {
         "top": 673.28125,
         "left": 500.0
-      },
-      "fcn_testanothernode_0": {
-        "top": 207.0,
-        "left": 780.0
-      },
-      "fcn_registrationregistrationuser_0": {
-        "top": 277.0,
-        "left": 780.0
-      },
-      "fcn_verifythisoutput_0": {
-        "top": 343.0,
-        "left": 780.0
       }
     },
     "settings": {
@@ -182,15 +140,6 @@
         },
         "pathTags": "Test",
         "isValidationsEnabled": true
-      },
-      {
-        "pathKey": [
-          "fcn_testanothernode_0",
-          "fcn_registrationregistrationuser_0",
-          "fcn_verifythisoutput_0"
-        ],
-        "dependsPathUID": "17667424954201",
-        "isValidationsEnabled": false
       }
     ],
     "flowChartUID": "fcUID_1713432997066",

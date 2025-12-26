@@ -9,16 +9,16 @@
         "accessors": [
           {
             "id": "acc0",
-            "name": "Firstname Input modifed from local",
+            "name": "Firstname Input modifed from local new",
             "accessor": "_textbox(\"firstname local\")",
             "messageAccessor": "_div(\"text-danger\", _near(_label(\"First Name\")))"
           }
         ],
         "type": "text",
         "props": {
-          "prefix": "Pratik local",
-          "min-length": "1",
-          "max-length": "1",
+          "prefix": "Pratik local new",
+          "min-length": "0",
+          "max-length": "0",
           "add-timestamp": "false"
         },
         "invalidData": [
@@ -33,7 +33,7 @@
             "comment": "33 characters long string"
           },
           {
-            "value": "local",
+            "value": "local new",
             "message": "",
             "comment": ""
           }
@@ -48,7 +48,7 @@
             "comment": "32 character long string"
           },
           {
-            "value": "local",
+            "value": "local new",
             "comment": ""
           }
         ]
