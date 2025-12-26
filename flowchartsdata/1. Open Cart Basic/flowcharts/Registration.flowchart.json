@@ -9,8 +9,7 @@
         "content": "Start",
         "nodeType": "start",
         "branches": [
-          "fcn_userregistration_0",
-          "fcn_demopath_0"
+          "fcn_userregistration_0"
         ]
       },
       "fcn_userregistration_0": {
@@ -39,7 +38,7 @@
         "content": "Enter $user details",
         "nodeType": "action",
         "branches": [
-          "fcn_verifyuserregistered_0"
+          "fcn_newnode_0"
         ]
       },
       "fcn_verifyuserregistered_0": {
@@ -77,35 +76,12 @@
           "isTestCaseEnd": true
         }
       },
-      "fcn_demopath_0": {
-        "id": "fcn_demopath_0",
-        "content": "demo path",
-        "nodeType": "pathlabel",
-        "branches": [
-          "fcn_isregistrationsuccessfullydone_0"
-        ]
-      },
-      "fcn_verify_0": {
-        "id": "fcn_verify_0",
-        "content": "Verify this output",
+      "fcn_newnode_0": {
+        "id": "fcn_newnode_0",
+        "content": "new node",
         "nodeType": "state",
         "branches": [
-          "fcn_thisisactionnode_0"
-        ]
-      },
-      "fcn_thisisactionnode_0": {
-        "id": "fcn_thisisactionnode_0",
-        "content": "this is action node",
-        "nodeType": "action",
-        "branches": []
-      },
-      "fcn_isregistrationsuccessfullydone_0": {
-        "id": "fcn_isregistrationsuccessfullydone_0",
-        "content": "Is registration successfully done?",
-        "nodeType": "dynamic-decision",
-        "branches": [
-          null,
-          "fcn_verify_0"
+          "fcn_verifyuserregistered_0"
         ]
       }
     },
@@ -127,36 +103,24 @@
         "left": 500.0
       },
       "fcn_verifyuserregistered_0": {
-        "top": 462.125,
+        "top": 528.125,
         "left": 500.0
       },
       "fcn_logout_0": {
-        "top": 540.28125,
+        "top": 606.28125,
         "left": 500.0
       },
       "fcn_remotekeyword_0": {
-        "top": 607.28125,
-        "left": 500.0
-      },
-      "fcn_testcase_end_0": {
         "top": 673.28125,
         "left": 500.0
       },
-      "fcn_demopath_0": {
-        "top": 211.0,
-        "left": 780.0
+      "fcn_testcase_end_0": {
+        "top": 739.28125,
+        "left": 500.0
       },
-      "fcn_verify_0": {
-        "top": 409.0,
-        "left": 780.0
-      },
-      "fcn_thisisactionnode_0": {
-        "top": 475.0,
-        "left": 780.0
-      },
-      "fcn_isregistrationsuccessfullydone_0": {
-        "top": 277.0,
-        "left": 780.0
+      "fcn_newnode_0": {
+        "top": 440.1562,
+        "left": 500.0
       }
     },
     "settings": {
@@ -175,6 +139,7 @@
           "fcn_userregistration_0",
           "fcn_gotoregistrationpage_0",
           "fcn_registernewuser_0",
+          "fcn_newnode_0",
           "fcn_verifyuserregistered_0",
           "fcn_logout_0",
           "fcn_remotekeyword_0",
@@ -188,16 +153,6 @@
         },
         "pathTags": "Test",
         "isValidationsEnabled": true
-      },
-      {
-        "pathKey": [
-          "fcn_demopath_0",
-          "fcn_isregistrationsuccessfullydone_0",
-          "fcn_verify_0",
-          "fcn_thisisactionnode_0"
-        ],
-        "dependsPathUID": "17667446226201",
-        "isValidationsEnabled": false
       }
     ],
     "flowChartUID": "fcUID_1713432997066",
