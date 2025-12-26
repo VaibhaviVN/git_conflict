@@ -14,7 +14,7 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "remote callback"
+            "customValue": "local callback"
           }
         ],
         "stepCategory": "inbuilt",

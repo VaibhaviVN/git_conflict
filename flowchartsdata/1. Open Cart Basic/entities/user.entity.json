@@ -9,16 +9,16 @@
         "accessors": [
           {
             "id": "acc0",
-            "name": "Firstname Input modifed from remote",
-            "accessor": "_textbox(\"firstname remote\")",
+            "name": "Firstname Input modifed from local",
+            "accessor": "_textbox(\"firstname local\")",
             "messageAccessor": "_div(\"text-danger\", _near(_label(\"First Name\")))"
           }
         ],
         "type": "text",
         "props": {
-          "prefix": "Pratik remote",
-          "min-length": "0",
-          "max-length": "0",
+          "prefix": "Pratik local",
+          "min-length": "1",
+          "max-length": "1",
           "add-timestamp": "false"
         },
         "invalidData": [
@@ -28,12 +28,12 @@
             "comment": "Should not be blank"
           },
           {
-            "value": "Thisislongstringwhichshouldnotwork",
+            "value": "Thisislongstringwhichshouldnot",
             "message": "First Name must be between 1 and 32 characters!",
             "comment": "33 characters long string"
           },
           {
-            "value": "remote",
+            "value": "local",
             "message": "",
             "comment": ""
           }
@@ -48,7 +48,7 @@
             "comment": "32 character long string"
           },
           {
-            "value": "remote",
+            "value": "local",
             "comment": ""
           }
         ]

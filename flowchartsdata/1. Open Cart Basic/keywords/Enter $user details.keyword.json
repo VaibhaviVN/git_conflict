@@ -121,7 +121,8 @@
           {
             "paramMode": "default",
             "parameterId": "user_",
-            "attributeId": "attr_41713433667115"
+            "attributeId": "attr_41713433667115",
+            "accessorId": "acc0"
           },
           {
             "paramMode": "default",

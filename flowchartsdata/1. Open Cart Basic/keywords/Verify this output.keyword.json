@@ -1,10 +1,10 @@
 {
-  "name": "remote keyword",
+  "name": "Verify this output",
   "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "remote keyword",
+    "title": "Verify this output",
     "specific": [],
     "parameters": [],
     "steps": [
@@ -14,7 +14,7 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "local"
+            "customValue": "this is test node"
           }
         ],
         "stepCategory": "inbuilt",
