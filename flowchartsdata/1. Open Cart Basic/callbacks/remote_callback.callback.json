@@ -1,0 +1,28 @@
+{
+  "name": "remote_callback",
+  "id": "-1",
+  "type": 5,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "remote_callback",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "remote callback"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

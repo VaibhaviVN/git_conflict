@@ -1,9 +1,7 @@
 {
-  "modifiedOn": "2024-06-19T11:16:52.341Z",
   "name": "user",
   "id": "-1",
   "type": 1,
-  "createdOn": "2024-04-15T04:41:30Z",
   "content": {
     "default": {
       "attr_01713433667114": {
@@ -11,14 +9,14 @@
         "accessors": [
           {
             "id": "acc0",
-            "name": "Firstname Input",
-            "accessor": "_textbox(\"firstname\")",
+            "name": "Firstname Input modifed from remote",
+            "accessor": "_textbox(\"firstname remote\")",
             "messageAccessor": "_div(\"text-danger\", _near(_label(\"First Name\")))"
           }
         ],
         "type": "text",
         "props": {
-          "prefix": "Pratik",
+          "prefix": "Pratik remote",
           "min-length": "0",
           "max-length": "0",
           "add-timestamp": "false"
@@ -33,6 +31,11 @@
             "value": "Thisislongstringwhichshouldnotwork",
             "message": "First Name must be between 1 and 32 characters!",
             "comment": "33 characters long string"
+          },
+          {
+            "value": "remote",
+            "message": "",
+            "comment": ""
           }
         ],
         "validData": [
@@ -43,6 +46,10 @@
           {
             "value": "thirtytwocharacterlongstringabcd",
             "comment": "32 character long string"
+          },
+          {
+            "value": "remote",
+            "comment": ""
           }
         ]
       },
@@ -139,6 +146,14 @@
           "text": "testsahi",
           "is-password": "true"
         },
+        "invalidData": [],
+        "validData": []
+      },
+      "attr_remote_5": {
+        "name": "remote",
+        "accessors": [],
+        "type": "text",
+        "props": {},
         "invalidData": [],
         "validData": []
       }

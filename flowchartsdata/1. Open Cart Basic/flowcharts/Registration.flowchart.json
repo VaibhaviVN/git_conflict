@@ -48,6 +48,14 @@
         "id": "fcn_logout_0",
         "content": "Logout",
         "nodeType": "action",
+        "branches": [
+          "fcn_remotekeyword_0"
+        ]
+      },
+      "fcn_remotekeyword_0": {
+        "id": "fcn_remotekeyword_0",
+        "content": "remote keyword",
+        "nodeType": "state",
         "branches": []
       }
     },
@@ -75,6 +83,10 @@
       "fcn_logout_0": {
         "top": 540.28125,
         "left": 500.0
+      },
+      "fcn_remotekeyword_0": {
+        "top": 607.28125,
+        "left": 500.0
       }
     },
     "settings": {
@@ -94,7 +106,8 @@
           "fcn_gotoregistrationpage_0",
           "fcn_registernewuser_0",
           "fcn_verifyuserregistered_0",
-          "fcn_logout_0"
+          "fcn_logout_0",
+          "fcn_remotekeyword_0"
         ],
         "pathName": "Registration",
         "dependsPathUID": "1713764926800",
