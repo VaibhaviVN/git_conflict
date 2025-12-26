@@ -22,11 +22,16 @@
       },
       "fcn_gotoregistrationpage_0": {
         "id": "fcn_gotoregistrationpage_0",
-        "content": "Go to registration page",
-        "nodeType": "action",
+        "content": "",
+        "nodeType": "testcase",
         "branches": [
           "fcn_registernewuser_0"
-        ]
+        ],
+        "testCaseInfo": {
+          "name": "User Registration remote {{$release_id}}",
+          "description": "",
+          "isTestCaseEnd": false
+        }
       },
       "fcn_registernewuser_0": {
         "id": "fcn_registernewuser_0",
@@ -42,7 +47,8 @@
         "nodeType": "state",
         "branches": [
           "fcn_logout_0"
-        ]
+        ],
+        "disabled": true
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
@@ -50,13 +56,25 @@
         "nodeType": "action",
         "branches": [
           "fcn_remotekeyword_0"
-        ]
+        ],
+        "disabled": true
       },
       "fcn_remotekeyword_0": {
         "id": "fcn_remotekeyword_0",
         "content": "remote keyword",
         "nodeType": "state",
-        "branches": []
+        "branches": [
+          "fcn_testcase_end_0"
+        ]
+      },
+      "fcn_testcase_end_0": {
+        "id": "fcn_testcase_end_0",
+        "content": "",
+        "nodeType": "testcase",
+        "branches": [],
+        "testCaseInfo": {
+          "isTestCaseEnd": true
+        }
       }
     },
     "positions": {
@@ -87,6 +105,10 @@
       "fcn_remotekeyword_0": {
         "top": 607.28125,
         "left": 500.0
+      },
+      "fcn_testcase_end_0": {
+        "top": 673.28125,
+        "left": 500.0
       }
     },
     "settings": {
@@ -107,7 +129,8 @@
           "fcn_registernewuser_0",
           "fcn_verifyuserregistered_0",
           "fcn_logout_0",
-          "fcn_remotekeyword_0"
+          "fcn_remotekeyword_0",
+          "fcn_testcase_end_0"
         ],
         "pathName": "Registration",
         "dependsPathUID": "1713764926800",
