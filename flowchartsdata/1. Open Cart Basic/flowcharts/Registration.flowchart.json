@@ -195,9 +195,7 @@
         "pathName": "Registration",
         "dependsPathUID": "1713764926800",
         "pathDependsOn": {
-          "fcUID_1713432997066": [
-            "17667492846001"
-          ]
+          "fcUID_1713432997066": []
         },
         "dataSet": {
           "dataSetName": "user_details.csv",
@@ -215,8 +213,11 @@
         ],
         "dependsPathUID": "17667492846001",
         "pathDependsOn": {
-          "fcUID_1713432997066": []
+          "fcUID_1713432997066": [
+            "1713764926800"
+          ]
         },
+        "pathTags": "new",
         "isValidationsEnabled": true
       }
     ],
@@ -225,8 +226,8 @@
       "1713764926838",
       "1713764926877",
       "17153234547943",
-      "17667492846001",
-      "1713764926800"
+      "1713764926800",
+      "17667492846001"
     ]
   },
   "enabled": true,
