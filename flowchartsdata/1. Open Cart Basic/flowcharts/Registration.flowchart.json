@@ -103,7 +103,15 @@
       },
       "fcn_demoode_0": {
         "id": "fcn_demoode_0",
-        "content": "demo ode",
+        "content": "demo node",
+        "nodeType": "action",
+        "branches": [
+          "fcn_lastnode_0"
+        ]
+      },
+      "fcn_lastnode_0": {
+        "id": "fcn_lastnode_0",
+        "content": "last node",
         "nodeType": "action",
         "branches": []
       }
@@ -156,6 +164,10 @@
       "fcn_demoode_0": {
         "top": 343.0,
         "left": 780.0
+      },
+      "fcn_lastnode_0": {
+        "top": 409.0,
+        "left": 780.0
       }
     },
     "settings": {
@@ -193,7 +205,8 @@
         "pathKey": [
           "fcn_dummypath_0",
           "fcn_newnode_1",
-          "fcn_demoode_0"
+          "fcn_demoode_0",
+          "fcn_lastnode_0"
         ],
         "dependsPathUID": "17667492846001",
         "isValidationsEnabled": false
