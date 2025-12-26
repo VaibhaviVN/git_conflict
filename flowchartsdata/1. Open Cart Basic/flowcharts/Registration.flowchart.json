@@ -9,7 +9,8 @@
         "content": "Start",
         "nodeType": "start",
         "branches": [
-          "fcn_userregistration_0"
+          "fcn_userregistration_0",
+          "fcn_demopath_0"
         ]
       },
       "fcn_userregistration_0": {
@@ -75,6 +76,35 @@
         "testCaseInfo": {
           "isTestCaseEnd": true
         }
+      },
+      "fcn_demopath_0": {
+        "id": "fcn_demopath_0",
+        "content": "demo path",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_registrationregistrationuser_0"
+        ]
+      },
+      "fcn_registrationregistrationuser_0": {
+        "id": "fcn_registrationregistrationuser_0",
+        "content": "",
+        "nodeType": "callpath",
+        "branches": [
+          "fcn_verify_0"
+        ],
+        "callPathData": {
+          "flowChartUID": "fcUID_1713432997066",
+          "pathUID": "1713764926800",
+          "pathParam": {
+            "user": "user"
+          }
+        }
+      },
+      "fcn_verify_0": {
+        "id": "fcn_verify_0",
+        "content": "Verify this output",
+        "nodeType": "state",
+        "branches": []
       }
     },
     "positions": {
@@ -109,6 +139,18 @@
       "fcn_testcase_end_0": {
         "top": 673.28125,
         "left": 500.0
+      },
+      "fcn_demopath_0": {
+        "top": 211.0,
+        "left": 780.0
+      },
+      "fcn_registrationregistrationuser_0": {
+        "top": 277.0,
+        "left": 780.0
+      },
+      "fcn_verify_0": {
+        "top": 343.0,
+        "left": 780.0
       }
     },
     "settings": {
@@ -140,6 +182,15 @@
         },
         "pathTags": "Test",
         "isValidationsEnabled": true
+      },
+      {
+        "pathKey": [
+          "fcn_demopath_0",
+          "fcn_registrationregistrationuser_0",
+          "fcn_verify_0"
+        ],
+        "dependsPathUID": "17667446226201",
+        "isValidationsEnabled": false
       }
     ],
     "flowChartUID": "fcUID_1713432997066",
