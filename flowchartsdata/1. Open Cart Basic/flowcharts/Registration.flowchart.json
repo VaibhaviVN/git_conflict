@@ -9,7 +9,8 @@
         "content": "Start",
         "nodeType": "start",
         "branches": [
-          "fcn_userregistration_0"
+          "fcn_userregistration_0",
+          "fcn_dummypath_0"
         ]
       },
       "fcn_userregistration_0": {
@@ -83,6 +84,28 @@
         "branches": [
           "fcn_verifyuserregistered_0"
         ]
+      },
+      "fcn_dummypath_0": {
+        "id": "fcn_dummypath_0",
+        "content": "dummy path",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_newnode_1"
+        ]
+      },
+      "fcn_newnode_1": {
+        "id": "fcn_newnode_1",
+        "content": "new node",
+        "nodeType": "action",
+        "branches": [
+          "fcn_demoode_0"
+        ]
+      },
+      "fcn_demoode_0": {
+        "id": "fcn_demoode_0",
+        "content": "demo ode",
+        "nodeType": "action",
+        "branches": []
       }
     },
     "positions": {
@@ -121,6 +144,18 @@
       "fcn_newnode_0": {
         "top": 440.1562,
         "left": 500.0
+      },
+      "fcn_dummypath_0": {
+        "top": 211.0,
+        "left": 780.0
+      },
+      "fcn_newnode_1": {
+        "top": 277.0,
+        "left": 780.0
+      },
+      "fcn_demoode_0": {
+        "top": 343.0,
+        "left": 780.0
       }
     },
     "settings": {
@@ -153,6 +188,15 @@
         },
         "pathTags": "Test",
         "isValidationsEnabled": true
+      },
+      {
+        "pathKey": [
+          "fcn_dummypath_0",
+          "fcn_newnode_1",
+          "fcn_demoode_0"
+        ],
+        "dependsPathUID": "17667492846001",
+        "isValidationsEnabled": false
       }
     ],
     "flowChartUID": "fcUID_1713432997066",
