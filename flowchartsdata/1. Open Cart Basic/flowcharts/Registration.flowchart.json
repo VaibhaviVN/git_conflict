@@ -82,29 +82,31 @@
         "content": "demo path",
         "nodeType": "pathlabel",
         "branches": [
-          "fcn_registrationregistrationuser_0"
+          "fcn_isregistrationsuccessfullydone_0"
         ]
-      },
-      "fcn_registrationregistrationuser_0": {
-        "id": "fcn_registrationregistrationuser_0",
-        "content": "",
-        "nodeType": "callpath",
-        "branches": [
-          "fcn_verify_0"
-        ],
-        "callPathData": {
-          "flowChartUID": "fcUID_1713432997066",
-          "pathUID": "1713764926800",
-          "pathParam": {
-            "user": "user"
-          }
-        }
       },
       "fcn_verify_0": {
         "id": "fcn_verify_0",
         "content": "Verify this output",
         "nodeType": "state",
+        "branches": [
+          "fcn_thisisactionnode_0"
+        ]
+      },
+      "fcn_thisisactionnode_0": {
+        "id": "fcn_thisisactionnode_0",
+        "content": "this is action node",
+        "nodeType": "action",
         "branches": []
+      },
+      "fcn_isregistrationsuccessfullydone_0": {
+        "id": "fcn_isregistrationsuccessfullydone_0",
+        "content": "Is registration successfully done?",
+        "nodeType": "dynamic-decision",
+        "branches": [
+          null,
+          "fcn_verify_0"
+        ]
       }
     },
     "positions": {
@@ -144,12 +146,16 @@
         "top": 211.0,
         "left": 780.0
       },
-      "fcn_registrationregistrationuser_0": {
-        "top": 277.0,
+      "fcn_verify_0": {
+        "top": 409.0,
         "left": 780.0
       },
-      "fcn_verify_0": {
-        "top": 343.0,
+      "fcn_thisisactionnode_0": {
+        "top": 475.0,
+        "left": 780.0
+      },
+      "fcn_isregistrationsuccessfullydone_0": {
+        "top": 277.0,
         "left": 780.0
       }
     },
@@ -186,8 +192,9 @@
       {
         "pathKey": [
           "fcn_demopath_0",
-          "fcn_registrationregistrationuser_0",
-          "fcn_verify_0"
+          "fcn_isregistrationsuccessfullydone_0",
+          "fcn_verify_0",
+          "fcn_thisisactionnode_0"
         ],
         "dependsPathUID": "17667446226201",
         "isValidationsEnabled": false
