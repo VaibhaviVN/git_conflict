@@ -1,0 +1,14 @@
+{
+  "name": "this is remote",
+  "id": "0",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "this is remote",
+    "specific": [],
+    "parameters": [],
+    "steps": []
+  },
+  "enabled": false,
+  "parentId": ""
+}
