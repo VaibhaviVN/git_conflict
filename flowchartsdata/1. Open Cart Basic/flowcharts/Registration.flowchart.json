@@ -39,7 +39,11 @@
         "nodeType": "action",
         "branches": [
           "fcn_verifyuserregistered_0"
-        ]
+        ],
+        "dataSet": {
+          "dataSetName": "user_details.csv",
+          "dataSetGroupName": "group_1"
+        }
       },
       "fcn_verifyuserregistered_0": {
         "id": "fcn_verifyuserregistered_0",
