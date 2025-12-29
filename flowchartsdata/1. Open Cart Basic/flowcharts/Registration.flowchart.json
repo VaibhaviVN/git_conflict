@@ -22,11 +22,16 @@
       },
       "fcn_gotoregistrationpage_0": {
         "id": "fcn_gotoregistrationpage_0",
-        "content": "Go to registration page",
-        "nodeType": "action",
+        "content": "",
+        "nodeType": "testcase",
         "branches": [
           "fcn_registernewuser_0"
-        ]
+        ],
+        "testCaseInfo": {
+          "name": "User Registration local {{$release_id}}",
+          "description": "",
+          "isTestCaseEnd": false
+        }
       },
       "fcn_registernewuser_0": {
         "id": "fcn_registernewuser_0",
@@ -42,13 +47,34 @@
         "nodeType": "state",
         "branches": [
           "fcn_logout_0"
-        ]
+        ],
+        "disabled": true
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
         "content": "Logout",
         "nodeType": "action",
-        "branches": []
+        "branches": [
+          "fcn_thisisremote_0"
+        ],
+        "disabled": true
+      },
+      "fcn_thisisremote_0": {
+        "id": "fcn_thisisremote_0",
+        "content": "this is remote",
+        "nodeType": "action",
+        "branches": [
+          "fcn_testcase_end_0"
+        ]
+      },
+      "fcn_testcase_end_0": {
+        "id": "fcn_testcase_end_0",
+        "content": "",
+        "nodeType": "testcase",
+        "branches": [],
+        "testCaseInfo": {
+          "isTestCaseEnd": true
+        }
       }
     },
     "positions": {
@@ -69,11 +95,19 @@
         "left": 500.0
       },
       "fcn_verifyuserregistered_0": {
-        "top": 462.125,
+        "top": 463.125,
         "left": 500.0
       },
       "fcn_logout_0": {
-        "top": 540.28125,
+        "top": 541.28125,
+        "left": 500.0
+      },
+      "fcn_thisisremote_0": {
+        "top": 607.28125,
+        "left": 500.0
+      },
+      "fcn_testcase_end_0": {
+        "top": 673.28125,
         "left": 500.0
       }
     },
@@ -94,7 +128,9 @@
           "fcn_gotoregistrationpage_0",
           "fcn_registernewuser_0",
           "fcn_verifyuserregistered_0",
-          "fcn_logout_0"
+          "fcn_logout_0",
+          "fcn_thisisremote_0",
+          "fcn_testcase_end_0"
         ],
         "pathName": "Registration",
         "dependsPathUID": "1713764926800",
